@@ -1,0 +1,74 @@
+ .acczone{
+    width: 80%;
+    margin: auto;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 7%;
+    grid-gap: 10px;
+    margin-left: 10%;
+ }
+ .acczone div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white	;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;  
+    border-radius: 10px;  
+ }
+ .acczone div button:nth-of-type(1) {
+    width: 8%;
+    margin: auto;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #00bbf0;
+    color: white;
+    border: 2px solid #005792;
+    border-radius: 5px;
+    font-size: x-large;
+
+}
+.acczone div button:nth-of-type(2) {
+    width: 8%;
+    margin: auto;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #f31414;
+    color: white;
+    border: 2px solid #770404;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.acczone div button:nth-of-type(1):active {
+    background-color: #1c7b95;
+}
+.acczone div button:nth-of-type(2):active {
+    background-color: #770404;
+}
+.acczone div input {
+    width: 60%;
+    margin: auto;
+    height: 5vh;
+    background-color: #effbff;
+    outline: none;
+    border: 1px solid #00bbf0;
+    border-radius: 5px;
+    font-weight: 800;
+    padding-left: 10px;
+    margin-left: 5%;
+}
+
+.acczone div h3{
+    color: #00204a;
+    font-weight: 700;
+    height: 5vh;
+    width: 60%;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 0;
+    text-align: left;
+    }
+.acczone div h2 span {
+    padding: 5px 5px 5px;
+}

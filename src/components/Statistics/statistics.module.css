@@ -1,0 +1,29 @@
+
+
+.chartszone{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    grid-gap: 10px;
+    margin: auto;
+    height: 80%;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.chartszone >div {
+    width: 80%;
+    height: 70%;
+    margin:7%;
+}
+.chartszone >div  h2 {
+    height: 15%;
+    background-color: #e3f6f5;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 5px;
+    border: 0.5px solid #1fb8b0;
+}
+
+

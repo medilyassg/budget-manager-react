@@ -1,9 +1,9 @@
-import {IoTrashBinOutline} from 'react-icons/io5';
+import { IoTrashBinOutline } from 'react-icons/io5';
 
 
 
-export default function Expens(props){
-    return(
+export default function Expens(props) {
+    return (
         <tr>
             <td>{props.expens.name}</td>
             <td>{props.expens.cost}</td>
@@ -11,5 +11,5 @@ export default function Expens(props){
             <td>{props.expens.date}</td>
             <td><button onClick={props.remove}>{<IoTrashBinOutline />}</button></td>
         </tr>
-)
+    )
 }

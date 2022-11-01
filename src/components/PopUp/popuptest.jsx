@@ -22,11 +22,11 @@ const CustomPopup = (props) => {
     >
       <div>
         <div>
-        <span  onClick={closeHandler}>
-          &times;
-        </span>
+          <span onClick={closeHandler}>
+            &times;
+          </span>
         </div>
-      
+
         <div className={styles.children}>{props.children}</div>
       </div>
     </div>
